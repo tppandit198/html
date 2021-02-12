@@ -1,0 +1,156 @@
+		*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		font-family: poppins;
+	}
+	.menu{
+		width: 1170px;
+		margin: auto;
+	}
+	.home-container{
+		background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/1.jpg);
+		height: 100vh;
+		-webkit-background-size:cover;
+		background-size: cover;
+		background-position: center center;
+		position: relative;
+	}
+	.nav{
+		float: right;
+		font-style: none;
+		margin-top: 30px;
+        
+	}
+	.nav li{
+		display: inline-block;
+	}
+	.nav li a{
+		color: #fff;
+		text-decoration: none;
+		padding: 5px 20px;font-size: 16px;
+		text-transform: uppercase;
+	}
+	.nav li a:hover{
+		background:#fff;
+		color: #000; 
+		border-radius: 5px;
+	}
+	.logo{
+		float: left;
+	}
+	.logo h1{
+		font-size: 30px;
+		color: white;
+		text-transform: uppercase;
+		padding-top: 15px; 
+	}
+	.logo h1:hover{
+		color:deepskyblue;
+	}
+.banner-text{
+    color: beige;
+    padding-top: 300px;
+    margin-left: 00px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.banner-text h1{
+    font-size: 50px;
+}
+span{
+    color:yellow;
+}
+span:hover{
+    color: red;
+}
+h1:hover{
+    color: aqua;
+}
+.about-container{
+    display: flex;
+}
+.model img{
+    width: 250px;
+    height: 260px;
+    border-radius: 50px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.model h2 a{
+    text-decoration: none;
+    color: black;
+}
+.model img:hover{
+    height: 280px;
+    width: 280px;
+}
+.model h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-left:70px; 
+}
+.about-menu{
+    display: flex;
+    padding-top: 150px;
+}
+.model-1 img{
+    width: 260px;
+    margin-left: 150px;
+    border-radius: 50px;
+}
+
+.model-1 h2,p{
+    text-align: center;
+    margin-left: 80px;
+}
+.about-us h1{
+    padding-top: 40px;
+    text-align: center;
+}
+.text-2 p{
+    font-size: 20px;
+    width: 900px;
+    margin-left: 240px;
+    
+}
+.footer{
+	height: 40vh;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.1);
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.add{
+display:inline-block;
+margin: 10px 100px;
+
+}
+.socail img{
+	width: 30px;
+	margin:60px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
